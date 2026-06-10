@@ -269,6 +269,17 @@
   		object-fit: cover;
 	}
 
+	/* Contact footer blocks */
+    .contact-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+	}
+
+    .contact-block {
+        max-width: 300px;
+    }
 
 /* Headings */
     .hero h1 {
@@ -289,18 +300,7 @@
         max-width: 90%;
         height: 400px;
     }
-
-/* Contact footer blocks */
-    .contact-footer {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        text-align: center;
-	}
-
-    .contact-block {
-        max-width: 300px;
-    }
+	
 /* Container padding */
     .container {
         padding: 20px;
