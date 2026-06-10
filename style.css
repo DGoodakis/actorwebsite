@@ -208,6 +208,7 @@ footer {
     .contact {
         grid-template-columns: 1fr;
         text-align: center;
+		align-items: center;
         gap: 20px;
     }
 
@@ -221,6 +222,7 @@ footer {
 	.profile {
     	display: flex;
     	justify-content: center;
+		align-items: center;
 	}
 
 	.profile img {
