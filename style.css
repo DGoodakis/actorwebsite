@@ -215,6 +215,7 @@
 /* ===== PROFILE (HOME HEADSHOT) ===== */
 	.profile {
  	 	display: flex;
+		flex-direction: column;
   		justify-content: center;
   		align-items: center;
 	}
@@ -225,26 +226,22 @@
   		height: auto;
   		display: block;
   		object-fit: cover;
+		align-items: center;
 	}
-
-/* ===== CONTACT IMAGE ===== */
-	.contact-photo {
+	
+/* ===== HERO (TEXT BLOCK) ===== */
+	.hero {
   		display: flex;
+  		flex-direction: column;
   		justify-content: center;
   		align-items: center;
-	}
-
-	.contact-photo img {
- 		width: 100%;
-  		max-width: 250px;
-  		height: auto;
-  		display: block;
-  		object-fit: cover;
+  		text-align: center;
 	}
 
 /* ===== FILM FEATURE IMAGE ===== */
 	.film {
   		display: flex;
+		flex-direction: column;
   		justify-content: center;
   		align-items: center;
   		margin: 30px auto;
@@ -258,14 +255,20 @@
   		object-fit: cover;
 	}
 
-/* ===== HERO (TEXT BLOCK) ===== */
-	.hero {
+	/* ===== CONTACT IMAGE ===== */
+	.contact-photo {
   		display: flex;
-  		flex-direction: column;
   		justify-content: center;
   		align-items: center;
-  		text-align: center;
 	}
+	.contact-photo img {
+ 		width: 100%;
+  		max-width: 250px;
+  		height: auto;
+  		display: block;
+  		object-fit: cover;
+	}
+
 
 /* Headings */
     .hero h1 {
