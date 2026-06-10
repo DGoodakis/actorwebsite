@@ -276,16 +276,18 @@
 
 /* Contact footer blocks */
 	.contact-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    text-align: center;
-    width: 100%;
-}
+		display: flex;
+    	flex-direction: column;
+    	align-items: stretch;
+    	gap: 20px;
+    	text-align: center;
+    	width: 100%;
+	}
 
     .contact-block {
-        max-width: 300px;
+        width: 100%;
+    	max-width: 500px;
+    	margin: 0 auto;
     }
 
 /* Headings */
