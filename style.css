@@ -203,13 +203,13 @@
     }
 
 /* Hero and two-column layouts */
-    .featured,
-    .contact {
-        grid-template-columns: 1fr;
-        text-align: center;
-		align-items: center;
-        gap: 20px;
-    }
+    .contact,
+	.featured {
+    	grid-template-columns: 1fr;
+    	align-items: center;
+    	gap: 20px;
+    	text-align: initial;
+	}
 
 /* IMAGES */
 /* ===== PROFILE (HOME HEADSHOT) ===== */
@@ -255,7 +255,7 @@
   		object-fit: cover;
 	}
 
-	/* ===== CONTACT IMAGE ===== */
+/* ===== CONTACT IMAGE ===== */
 	.contact-photo {
   		display: flex;
   		justify-content: center;
@@ -269,13 +269,20 @@
   		object-fit: cover;
 	}
 
-	/* Contact footer blocks */
-    .contact-footer {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        text-align: center;
+	.contact-info {
+    	text-align: left;
+ 		width: 100%;
 	}
+
+/* Contact footer blocks */
+	.contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
 
     .contact-block {
         max-width: 300px;
