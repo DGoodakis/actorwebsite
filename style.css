@@ -209,29 +209,64 @@
         gap: 20px;
     }
 
-/* Profile and contact images */
-	.profile img,
-    .contact-photo img {
-        max-width: 250px;
-        margin: 0 auto;
-	}
-
+/* IMAGES */
+/* ===== PROFILE (HOME HEADSHOT) ===== */
 	.profile {
-    	display: flex;
-    	justify-content: center;
-		align-items: center;
+ 	 	display: flex;
+  		justify-content: center;
+  		align-items: center;
 	}
 
 	.profile img {
-   	 max-width: 280px;
-    	width: 100%;
-    	height: auto;
-		display: block;
+  		width: 100%;
+  		max-width: 280px;
+  		height: auto;
+  		display: block;
+  		object-fit: cover;
 	}
 
+/* ===== CONTACT IMAGE ===== */
+	.contact-photo {
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+	}
+
+	.contact-photo img {
+ 		width: 100%;
+  		max-width: 250px;
+  		height: auto;
+  		display: block;
+  		object-fit: cover;
+	}
+
+/* ===== FILM FEATURE IMAGE ===== */
+	.film {
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		margin: 30px auto;
+	}
+
+	.film img {
+  		width: 100%;
+  		max-width: 500px;
+  		height: auto;
+  		display: block;
+  		object-fit: cover;
+	}
+
+/* ===== HERO (TEXT BLOCK) ===== */
 	.hero {
-    	padding: 20px 10px;
-    	width: 100%;
+  		padding: 20px 10px;
+  		width: 100%;
+	}
+
+  		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+  		text-align: center;
 	}
 
 /* Headings */
